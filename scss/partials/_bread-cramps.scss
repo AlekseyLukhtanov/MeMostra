@@ -1,0 +1,68 @@
+.bread-cramps{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @media screen and (min-width:769px){
+    display: block;
+    border-width: 0 0 1px 0;
+    border-style:dotted;
+    border-color:$border;
+  }
+  .main-cramps{
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    @media screen and (min-width:769px){
+      display: block;
+      float: left;
+    }
+  a{
+    padding: 7px 13px 7px 14px;
+    color:$gray;
+    font-family:$font-base;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-right: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $border-cramps;
+    background-color:$grey-nav;
+  }
+  a:hover{
+    padding:7px 13px 7px 14px;
+    color:$blue-cramps;
+    font-family:$font-base;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-right: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:$blue-border-hover;
+    background-color:$blue-bac-hover;
+    }
+  }
+  .form{
+    display:block;
+    text-align: center;
+    padding: 12px 0;
+
+    @media screen and (min-width:769px){
+      display: block;
+      float:right;
+    }
+    form{
+      display: inline-block;
+      @media screen and (min-width:769px){
+        display: flex;
+        flex-direction: column;
+      }
+      input{
+        display: block;
+      }
+      input[type="text"]::-webkit-input-placeholder {
+        color:#676767;
+      }
+    }
+   }
+}

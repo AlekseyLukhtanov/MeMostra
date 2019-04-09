@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+
+@import 'vendor/vendor';
+@import 'setup/setup';
+
+@import 'global';
+@import 'partials/forms';
+
+@import 'partials/footer';
+@import 'partials/header';
+@import 'partials/layout';
+@import 'partials/nav';
+@import 'partials/baner';
+@import 'partials/bread-cramps';
+@import 'partials/main';
+@import 'partials/aside';

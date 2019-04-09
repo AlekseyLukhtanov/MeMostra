@@ -1,0 +1,114 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &:focus {
+
+  }
+  &::placeholder {
+
+  }
+}
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  transition: all .3s ease-out;
+  -webkit-appearance: none;
+  appearance: none;
+  &:hover,
+  &:active {
+
+  }
+  &:focus {
+
+  }
+}
+#search{
+  width: 230px;
+  height: 37px;
+  outline: 1px solid $green-border-hover;
+  border-width: 3px;
+  border-style: solid;
+  border-color:$green;
+  margin-right: 5px;
+  float: left;
+}
+#buttom{
+  width: 80px;
+  height: 37px;
+  border-width: 1px;
+  border-style: solid;
+  border-color:$green-border-hover;
+  background-color:$green;
+  color:$green-text;
+  font-family:$font-base;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+h2{
+  float: left;
+  color:$blueH2;
+  font-family:$font-base;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47.97px;
+}
+h3{
+  color:$blue-text;
+  font-family:$font-base;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+input{
+  border: 1px solid $border-aside;
+  background-color: $blue-bac-hover;
+}
+// #LastName{
+//   width: 288px;
+//   height: 38px;
+//   border: 1px solid $border-aside;
+//   background-color: $blue-bac-hover;
+//   float: right;
+// }
+// #EmailAddress{
+//   width: 592px;
+//   height: 38px;
+//   border: 1px solid $border-aside;
+//   background-color: $blue-bac-hover;
+//
+// }
+#Message{
+  height: 130px;
+
+}
+  #SendMessage{
+    float: right;
+    padding: 10px 10px;
+    border: 1px solid $green-border-hover;
+    background-color:$green;
+    color:$green-text;
+    font-family:$font-base;
+    margin-top:20px ;
+    margin-bottom: 60px;
+  }
